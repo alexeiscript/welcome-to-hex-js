@@ -1,0 +1,58 @@
+.App {
+    width: 100%;
+    max-width: 1024px;
+    
+    margin: auto;
+}
+
+.hex-div {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.section {
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 3px 7px 1px rgba(12,22,44,.32);
+    border-radius: 5px;
+    margin: 15px 10px;
+}
+
+h4 {
+    color: #3d4556;
+}
+
+.accomplishment, .whyMe {
+    color: #3d4556;
+}
+
+.profile {
+    text-align: center;
+    background: #375bd3;
+    color: #ffffff;
+}
+
+.profile h1 {
+    font-weight: 400;
+}
+
+.profile p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+#position {
+    font-size: 1.4em;
+}
+
+.image-div img {
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    background: #dfe7fb;
+}
+
+.accomplishment, .whyMe {
+    padding-top: 0;
+    margin-top: 0;
+}
